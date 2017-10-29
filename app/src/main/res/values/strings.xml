@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NativeApplication</string>
+    <string name="btn_select">select</string>
+    <string name="btn_proc">process</string>
+</resources>
