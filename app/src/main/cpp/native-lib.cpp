@@ -17,7 +17,6 @@ JNIEXPORT jintArray JNICALL
 Java_com_eystudio_android_nativeapplication_MainActivity_processImage(JNIEnv* env,
         jobject /* this */, jintArray pixels, jint width, jint height){
 
-    jsize len = env->GetArrayLength(pixels);
     jboolean j;
     int * colors = env->GetIntArrayElements(pixels, &j);
 
